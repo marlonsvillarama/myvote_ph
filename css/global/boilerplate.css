@@ -1,0 +1,36 @@
+:root {
+    --blue-900: #13183F;
+    --blue-600: #666CA3;
+    --blue-flag: #0032A0;
+
+    --grey: #83869A;
+
+    --red-flag: #BF0D3E;
+
+    --white: #FFFFFF;
+
+    --yellow-flag: #FED141;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-weight: 800;
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
