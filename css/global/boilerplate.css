@@ -4,6 +4,9 @@
     --blue-flag: #0032A0;
 
     --grey: #83869A;
+    --grey-242: #F2F2F2;
+    --grey-42: #424242;
+    --grey-ccc: #CCCCCC;
 
     --red-flag: #BF0D3E;
 
@@ -25,12 +28,24 @@ body {
 }
 
 h1, h2, h3 {
-    font-weight: 800;
     margin: 0;
+}
+
+h1 {
+    font-size: 200%;
+    font-weight: 800;
+}
+
+h2 {
+    font-weight: 500;
 }
 
 img {
     display: block;
     max-width: 100%;
     height: auto;
+}
+
+a {
+    text-decoration: none;
 }

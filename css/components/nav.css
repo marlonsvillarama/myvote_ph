@@ -1,0 +1,41 @@
+nav {
+    background-color: var(--grey-242);
+    /* border: 1px solid red; */
+    display: flex;
+    /* position: sticky; */
+    /* top: 0; */
+    /* gap: 2rem; */
+}
+
+nav a {
+    color: var(--grey-42);
+    font-size: var(--fs-6);
+    padding: 0.5rem 2rem;
+    /* display: inline-block; */
+    transition: all 100ms ease-in-out;
+}
+
+nav a.selected {
+    background-color: var(--blue-flag);
+    color: var(--white);
+}
+
+nav a:hover:not(.selected) {
+    background-color: var(--grey-242);
+    /* color: var(--white); */
+}
+
+@media (width >= 50.625em) {
+    nav {
+        min-width: 50.625em;
+        margin-inline: auto;
+    }
+}
+
+@media (width >= 75em) {
+    nav {
+        max-width: 75em;
+        margin-inline: auto;
+        /* padding-inline: 0; */
+    }
+}

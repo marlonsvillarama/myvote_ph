@@ -1,0 +1,13 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+@media (width >= 75em) {
+    .profile {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+}
+

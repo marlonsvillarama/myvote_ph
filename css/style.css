@@ -1,2 +1,12 @@
 @import url("/css/global/boilerplate.css");
 @import url("/css/global/fonts.css");
+@import url("/css/global/buttons.css");
+@import url("/css/global/layout.css");
+@import url("/css/components/header.css");
+@import url("/css/components/nav.css");
+@import url("/css/components/main.css");
+@import url("/css/components/candidate.css");
+@import url("/css/components/profile.css");
+@import url("/css/components/profile-summary.css");
+@import url("/css/components/profile-actions.css");
+@import url("/css/components/profile-details.css");

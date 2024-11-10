@@ -1,0 +1,36 @@
+.wrapper {
+    padding-inline: 20px;
+}
+
+@media (width >= 50.625em) {
+    .wrapper {
+        padding-inline: 44px;
+    }
+}
+
+@media (width >= 75em) {
+    .wrapper {
+        max-width: 75em;
+        padding-inline: 0;
+    }
+}
+
+.wrapper.page-title {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    position: sticky;
+    top: 0;
+    background-color: var(--white);
+    padding: 1rem;
+    border-bottom: 2px solid var(--blue-flag);
+}
+.wrapper.page-title > h1 {
+    font-size: var(--fs-2);
+    text-align: center;
+    transition: all 50ms ease-in-out;
+}
+@media (width >= 62em) {
+    .wrapper.page-title > h1 {
+        font-size: var(--fs-1);
+    }
+}
