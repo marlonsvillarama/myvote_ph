@@ -8,44 +8,415 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     
+    <script src="js/script.js"></script>
 </head>
 <body>
-    <header class="header wrapper">
-        <a href="/" class="logo">
-            <img src="/assets/philippines-flag-icon.svg" alt="MyVote.ph Home" width="48">
-            <div>
-                <span class="title blue">my</span><span class="title red">vote</span>
-            </div>
-        </a>
-        <a href="/" class="button dark">Share</a>
+    <header>
+        <div class="top">
+            <a href="/" class="logo">
+                <img src="assets/philippines-flag-icon.svg" alt="MyVote.ph Home" width="48">
+                <div>
+                    <span class="title blue">my</span><span class="title red">vote</span>
+                </div>
+            </a>
+            <a href="/" class="button dark"></a>
+        </div>
+        <nav>
+            <a href="/">President</a>
+            <a href="/">Vice-President</a>
+            <a href="/" class="selected">Senate</a>
+            <a href="/">Congress</a>
+            <a href="/">Governor</a>
+            <a href="/">Mayor</a>
+        </nav>
+        
     </header>
-    <nav>
-        <a href="/">Senate</a>
-        <a href="/">Congress</a>
-        <a href="/">Governor</a>
-        <a href="/">Mayor</a>
-    </nav>
 
-    <main>
-        <section class="candidates">
-            <div class="block profile">
-                <img src="/assets/man-user-color-icon.svg" alt="Name" width="240">
-                <div class="profile info">
+    <!-- <section class="wrapper page-title">
+        <h1>2025 Senatorial Candidates</h1>
+    </section> -->
+    
+
+    <main class="wrapper">
+        <section class="candidate">
+            <img src="/assets/profiles/Abalos_Benhur_Jr.jpg" alt="Name" width="300">
+            <div class="profile">
+                <div class="summary">
                     <h1>Abalos, Benjamin Jr. De Castro</h1>
-                    <h2>Partido Federal ng Pilipinas</h2>
+                    <div class="bullets">
+                        <span class="bullet highlight">First term</span>
+                        <span class="bullet age">50</span>
+                        <span class="bullet">Partido Federal ng Pilipinas</span>
+                    </div>
+                </div>
+                <div class="actions">
+                    <a href="/" class="like" title="I like this candidate"></a>
+                    <a href="/" class="discuss" title="Discuss"></a>
+                    <a href="/" class="share" title="Share" id="share_abalos"></a>
+                    <a href="/" class="fact-check" title="Fact check"></a>
+                </div>
+                <div class="details">
+                    <div class="detail">
+                        <h3>Previous Experience</h3>
+                        <ul>
+                            <li>Secretary - Department of Interior and Local Government (2022-2024)
+                                <ul>
+                                    <li>Implementation of the "Buhay Ingatan, Droga'y Ayawan (BIDA)" program</li>
+                                </ul>
+                            </li>
+                            <li>Chairman - Metropolitan Manila Development Authority (2021-2022)</li>
+                            <li>Mayor - Mandaluyong City, Metro Manila (2007-2016)
+                                <ul>
+                                    <li>Best Mayor (2015)</li>
+                                </ul>
+                            </li>
+                            <li>Congressman - Mandaluyong Lone District (2004-2007)
+                                <ul>
+                                    <li>Principal author:
+                                        <ul>
+                                            <li><a href="https://www.officialgazette.gov.ph/2007/03/18/republic-act-no-9397/" target="_blank">Republic Act 9397 - "No-Bidding" sale of government-owned properties to its occupants for socialized housing</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>Co-authored 54 House bills</li>
+                                </ul>
+                            </li>
+                            <li>Mayor - Mandaluyong City, Metro Manila (1998-2004)
+                                <ul>
+                                    <li>Transformed Mandaluyong City into "Tiger City of the Philippines" during first term as Mayor.</li>
+                                    <li>Most Outstanding City Mayor, Local Government Leadership Award (2003)</li>
+                                    <li>Outstanding Mayor of the Philippines (2000)</li>
+                                </ul>
+                            </li>
+                            <li>City Councilor - Mandaluyong City,Metro Manila (1995-1998)</li>
+                        </ul>
+                    </div>
+                    <div class="detail">
+                        <h3>Known Advocacies</h3>
+                        <p>
+                            No advocacies identified at this time.
+                        </p>
+                    </div>
+                    <div class="detail">
+                        <h3>Political Ties</h3>
+                        <p>
+                            Abalos Jr. is a member of a political family that includes the following:
+                        </p>
+                        <ul>
+                            <li>Benjamin Abalos Sr., Father - Mayor, Mandaluyong City (Incumbent)</li>
+                            <li>Carmelita Abalos, Wife - Vice-Mayor, Mandaluyong City (Incumbent)</li>
+                            <li>Charisse Marie Abalos, Daughter - Councilor, 1st District, Mandaluyong City (2013-2022)</li>
+                            <li>Benjamin Abalos III, Son - Councilor, 2nd District, Mandaluyong City (Incumbent)</li>
+                        </ul>
+                    </div>
+                    <div class="detail">
+                        <h3>Net Worth</h3>
+                        <p>
+                            No Statement of Assets, Liabilities, and Net Worth (SALN) released at this time.
+                        </p>
+                    </div>
+                    <div class="detail">
+                        <h3>Education</h3>
+                        <ul class="list">
+                            <li>Ateneo de Manila University - Bachelor of Laws</li>
+                            <li>De La Salle University - Bachelor of Arts in History and Political Science</li>
+                        </ul>
+                    </div>
+                    <div class="detail">
+                        <h3>Related News</h3>
+                        <ul>
+                            <li>
+                                <a href="https://www.gmanetwork.com/news/topstories/nation/919508/abalos-explains-viral-photo-with-alice-guo/story/" target="_blank">Abalos explains viral photo with Alice Guo</a>
+                            </li>
+                            <li>
+                                <a href="https://www.gmanetwork.com/news/topstories/nation/919806/abalos-complaint-duterte-quiboloy/story/#goog_rewarded" target="_blank">Abalos says ex-Pres. Duterte has filed complaint against him, Marbil amid Quiboloy hunt</a>
+                            <li>
+                                <a href="https://www.manilatimes.net/2023/01/30/news/regions/abalos-govt-in-big-fight-vs-drug-rings/1876455" target="_blank">Abalos: Govt in big fight vs drug rings</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
+        <!-- <section class="candidate">
+            <img src="/assets/profiles/Adonis_Ronaldo_Mangampo.png" alt="Name" width="300">
+            <div class="profile">
+                <div class="summary">
+                    <h1>Adonis, Ronaldo Mangampo</h1>
+                    <div class="bullets">
+                        <span class="bullet highlight">First term</span>
+                        <span class="bullet age">--</span>
+                        <span class="bullet">Makabayang Koalisyon ng Mamamayan</span>
+                    </div>
+                </div>
+                <div class="actions">
+                    <a href="/" class="like" title="I like this candidate"></a>
+                    <a href="/" class="discuss" title="Discuss"></a>
+                    <a href="/" class="share" title="Share"></a>
+                    <a href="/" class="fact-check" title="Fact check"></a>
+                </div>
+                <div class="details">
+                    <div class="detail">
+                        <h3>Previous Experience</h3>
+                        <p>
+                            No past experiences identified at this time.
+                        </p>
+                    </div>
+                    <div class="detail">
+                        <h3>Known Advocacies</h3>
+                        <p>
+                            No advicacies identified at this time.
+                        </p>
+                    </div>
+                    <div class="detail">
+                        <h3>Political Ties</h3>
+                        <p>
+                            No political ties identified at this time.
+                        </p>
+                    </div>
+                    <div class="detail">
+                        <h3>Net Worth</h3>
+                        <p>
+                            No Statement of Assets, Liabilities, and Net Worth (SALN) has been released at this time.
+                        </p>
+                    </div>
+                    <div class="detail">
+                        <h3>Education</h3>
+                        <p>
+                            No educational background identfied at this time.
+                        </p>
+                    </div>
+                    <div class="detail">
+                        <h3>Related News</h3>
+                        <p>
+                            No related news at this time.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- <section class="candidate">
+            <img src="/assets/profiles/Amad_Wilson_Caritero.jpeg" alt="Name" width="300">
+            <div class="profile">
+                <div class="summary">
+                    <h1>Amad, Wilson Caritero</h1>
+                    <div class="bullets">
+                        <span class="bullet highlight">First term</span>
+                        <span class="bullet">-- years old</span>
+                        <span class="bullet">Independent</span>
+                    </div>
+                </div>
+                <div class="actions">
+                    <a href="/" class="like" title="I like this candidate"></a>
+                    <a href="/" class="discuss" title="Discuss"></a>
+                    <a href="/" class="share" title="Share"></a>
+                    <a href="/" class="fact-check" title="Fact check"></a>
+                </div>
+                <div class="details">
+                    <div class="detail">
+                        <h3>Previous Experience</h3>
+                        <p>
+                            No past experiences identified at this time.
+                        </p>
+                    </div>
+                    <div class="detail">
+                        <h3>Known Advocacies</h3>
+                        <p>
+                            No advicacies identified at this time.
+                        </p>
+                    </div>
+                    <div class="detail">
+                        <h3>Political Ties</h3>
+                        <p>
+                            No political ties identified at this time.
+                        </p>
+                    </div>
+                    <div class="detail">
+                        <h3>Net Worth</h3>
+                        <p>
+                            No Statement of Assets, Liabilities, and Net Worth (SALN) has been released at this time.
+                        </p>
+                    </div>
+                    <div class="detail">
+                        <h3>Education</h3>
+                        <p>
+                            No educational background identfied at this time.
+                        </p>
+                    </div>
+                    <div class="detail">
+                        <h3>Related News</h3>
+                        <p>
+                            No related news at this time.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- <section class="candidate">
+            <img src="/assets/profiles/Andamo_Jocelyn_Santos.png" alt="Name" width="300">
+            <div class="profile">
+                <div class="summary">
+                    <h1>Andamo, Jocelyn Santos</h1>
+                    <div class="bullets">
+                        <span class="bullet highlight">First term</span>
+                        <span class="bullet">-- years old</span>
+                        <span class="bullet">Makabayang Koalisyon ng Mamamayan</span>
+                    </div>
+                </div>
+                <div class="actions">
+                    <a href="/" class="like" title="I like this candidate"></a>
+                    <a href="/" class="discuss" title="Discuss"></a>
+                    <a href="/" class="share" title="Share"></a>
+                    <a href="/" class="fact-check" title="Fact check"></a>
+                </div>
+                <div class="details">
+                    <div class="detail">
+                        <h3>Previous Experience</h3>
+                        <p>
+                            No past experiences identified at this time.
+                        </p>
+                    </div>
+                    <div class="detail">
+                        <h3>Known Advocacies</h3>
+                        <p>
+                            No advicacies identified at this time.
+                        </p>
+                    </div>
+                    <div class="detail">
+                        <h3>Political Ties</h3>
+                        <p>
+                            No political ties identified at this time.
+                        </p>
+                    </div>
+                    <div class="detail">
+                        <h3>Net Worth</h3>
+                        <p>
+                            No Statement of Assets, Liabilities, and Net Worth (SALN) has been released at this time.
+                        </p>
+                    </div>
+                    <div class="detail">
+                        <h3>Education</h3>
+                        <p>
+                            No educational background identfied at this time.
+                        </p>
+                    </div>
+                    <div class="detail">
+                        <h3>Related News</h3>
+                        <p>
+                            No related news at this time.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- <section class="candidate">
+            <img src="/assets/profiles/Aquino_Paolo_Benigno.png" alt="Name" width="300">
+            <div class="profile">
+                <div class="summary">
+                    <h1>Aquino, Paolo Benigno “Bam” IV Aguirre</h1>
+                    <div class="bullets">
+                        <span class="bullet highlight">Second term</span>
+                        <span class="bullet">47 years old</span>
+                        <span class="bullet">Katipunan ng Nagkakaisang Pilipino</span>
+                    </div>
+                </div>
+                <div class="actions">
+                    <a href="/" class="like" title="I like this candidate"></a>
+                    <a href="/" class="discuss" title="Discuss"></a>
+                    <a href="/" class="share" title="Share"></a>
+                    <a href="/" class="fact-check" title="Fact check"></a>
+                </div>
+                <div class="details">
+                    <div class="detail">
+                        <h3>Previous Experience</h3>
+                        <ul>
+                            <li>Senator (2013-2019)
+                                <ul>
+                                    <li>Deputy Senate Minority Leader (2017-2019)</li>
+                                    <li>Passed more than 40 laws, including the following:
+                                        <ul>
+                                            <li><a href="https://www.officialgazette.gov.ph/2017/08/03/republic-act-no-10931/" target="_blank">RA 10931: Universal Access to Quality Tertiary Education Act</a></li>
+                                            <li><a href="https://www.officialgazette.gov.ph/2017/08/02/republic-act-no-10929/" target="_blank">RA 10929: Free Internet Access in Public Space</a></li>
+                                            <li><a href="https://www.officialgazette.gov.ph/2017/08/02/republic-act-no-10911/" target="_blank">RA 10911: Anti Age-Discrimination Act</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>President - MicroVentures Foundation (2012-2013)</li>
+                            <li>President - MicroVentures Incorporated (2007-2012)
+                                <ul>
+                                    <li>Ten Outstanding Young Persons of the World (2012)</li>
+                                    <li>Ten Outstanding Young Men of the Philippines (2010)</li>
+                                </ul>
+                            </li>
+                            <li>Chairman - National Youth Commission (2003-2006)</li>
+                            <li>Commissioner - National Youth Commission (2001-2003)</li>
+                        </ul>
+                    </div>
+                    <div class="detail">
+                        <h3>Known Advocacies</h3>
+                        <p>
+                            Aquino is a known advocate for the following:
+                        </p>
+                        <ul>
+                            <li>Social entrepreneurship</li>
+                            <li>Free and affordable college education</li>
+                            <li>Renewable energy</li>
+                        </ul>
+                    </div>
+                    <div class="detail">
+                        <h3>Political Ties</h3>
+                        <p>
+                            Aquino is a member of a political family that includes the following:
+                        </p>
+                        <ul>
+                            <li>Benigno "Ninoy" Aquino Jr., Uncle - Senator (1967-1972)</li>
+                            <li>Corazon Aquino, Aunt - President (1986-1992)</li>
+                            <li>Benigno Aquino III, Cousin - President (2010-2016)</li>
+                            <li>Benigno Aquino Sr., Grandfather - Congressman (1943-1944)</li>
+                            <li>Agapito "Butz" Aquino, Uncle - Senator (1987-1995)</li>
+                            <li>Tessie Aquino-Oreta, Aunt - Senator (1987-1998)</li>
+                        </ul>
+                    </div>
+                    <div class="detail">
+                        <h3>Net Worth</h3>
+                        <p>
+                            No Statement of Assets, Liabilities, and Net Worth (SALN) has been released at this time.
+                        </p>
+                    </div>
+                    <div class="detail">
+                        <h3>Education</h3>
+                        <ul>
+                            <li>Ateneo de Manila University - Bachelor of Science (Management Engineering)
+                                <ul>
+                                    <li>Summa cum laude</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="detail">
+                        <h3>Related News</h3>
+                        <p>
+                            No related news at this time.
+                        </p>
+                        <ul>
+                            <li><a href="https://news.abs-cbn.com/news/2024/11/9/kiko-pangilinan-bam-aquino-launch-kibam-grassroots-campaign-1621" target="_blank">Senatorial bets Kiko Pangilinan, Bam Aquino launch 'KiBam' grassroots campaign</a></li>
+                            <li><a href="https://asiasociety.org/philippines/sen-bam-aquino-calls-citizens-defend-truth" target="_blank">Sen. Bam Aquino Calls for Citizens to Defend Truth</a></li>
+                            <li><a href="https://power4all.org/articles/news/senator-bam-aquino-advocates-renewable-energy" target="_blank">Senator Bam Aquino Advocates Renewable Energy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section> -->
     </main>
 
-    <footer>
+    <footer class="wrapper">
         <a href="/">
             <img src="/assets/philippines-flag-icon.svg" alt="MyVote.ph Home" width="48">
             <span class="title">my</span><span class="title">vote</span>
         </a>
-        <a href="/" class="button dark">Share</a>
+        <a href="/" class="button dark"></a>
     </footer>
 </body>
 </html>

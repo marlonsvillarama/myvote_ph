@@ -1,13 +1,24 @@
 header {
     /* border: 1px solid red; */
+    position: fixed;
+    width: 100%;
+    background-color: var(--white);
+    top: 0;
+    padding: 12px;
+    border-bottom: 1px solid var(--grey-242);
+
     /* position: sticky;
     top: 0; */
     /* z-index: 1000; */
-    background-color: var(--white);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-block: 16px;
+    /* padding-block: 16px; */
+}
+header > .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .logo {
     display: flex;
@@ -16,11 +27,11 @@ header {
     line-height: 2rem;
 }
 
-@media (width >= 50.625em) {
-    .header {
+/* @media (width >= 50.625em) {
+    header {
         padding-block: 24x;
     }
-}
+} */
 
 @media (width >= 75em) {
     .wrapper {
