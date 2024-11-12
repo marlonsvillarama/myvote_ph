@@ -1,24 +1,19 @@
 header {
-    /* border: 1px solid red; */
     position: fixed;
     width: 100%;
     background-color: var(--white);
     top: 0;
-    padding: 12px;
-    border-bottom: 1px solid var(--grey-242);
-
-    /* position: sticky;
-    top: 0; */
-    /* z-index: 1000; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* padding-block: 16px; */
 }
 header > .top {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 12px;
+}
+@media (width < 640px) {
+    header > .top {
+        padding: 8px;
+    }
 }
 .logo {
     display: flex;
@@ -26,19 +21,23 @@ header > .top {
     gap: 0.5rem;
     line-height: 2rem;
 }
-
-/* @media (width >= 50.625em) {
-    header {
-        padding-block: 24x;
+.logo > img {
+    width: 48px;
+}
+@media (width < 640px) {
+    .logo {
+        gap: 0.25rem;
     }
-} */
-
-@media (width >= 75em) {
-    .wrapper {
-        max-width: 75em;
-        margin-inline: auto;
-        /* padding-inline: 0; */
+    .logo > img {
+        width: 40px;
     }
+}
+
+header > .slogan {
+    background-color: var(--grey-242);
+    border-bottom: 1 solid var(--grey-ccc);
+    padding: 12px;
+    text-align: center;
 }
 
 .title {
@@ -46,9 +45,29 @@ header > .top {
     font-weight: 700;
     color: var(--white);
 }
+@media (width < 640px) {
+    .title {
+        font-size: 1.75rem;
+    }
+}
 .title.blue {
     color: var(--blue-flag);
 }
 .title.red {
     color: var(--red-flag);
+}
+
+#btn-candidates {
+    font-size: var(--fs-7);
+    color: var(--white);
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    background-color: var(--blue-flag);
+    display: none;
+}
+
+@media (width < 640px) {
+    #btn-candidates {
+        display: inline-block;
+    }
 }
