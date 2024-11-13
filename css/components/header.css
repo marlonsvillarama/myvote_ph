@@ -1,14 +1,22 @@
 header {
+    font-family: var(--font-sans);
     position: fixed;
     width: 100%;
     background-color: var(--white);
     top: 0;
-}
-header > .top {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px;
+    padding: 0 2rem;
+    z-index: 999;
+}
+header > .top {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+    /* padding: 12px; */
+    /* padding: 0 1rem; */
 }
 @media (width < 640px) {
     header > .top {
@@ -33,12 +41,15 @@ header > .top {
     }
 }
 
-header > .slogan {
-    background-color: var(--grey-242);
+/* header > .slogan {
+    background-color: var(--blue-flag-lite);
     border-bottom: 1 solid var(--grey-ccc);
-    padding: 12px;
+    color: var(--white);
+    font-family: var(--font-serif);
+    font-size: var(--fs-5);
+    padding: 8px;
     text-align: center;
-}
+} */
 
 .title {
     font-size: 2rem;
@@ -55,6 +66,24 @@ header > .slogan {
 }
 .title.red {
     color: var(--red-flag);
+}
+
+.lang {
+    font-size: var(--fs-6);
+}
+.lang a {
+    padding: 0.5rem 1rem;
+    color: var(--grey-42);
+    /* border: 1px solid red; */
+}
+.lang a:not(.selected):hover {
+    background-color: var(--grey-242);
+}
+.lang a.selected {
+    border-radius: 4px;
+    background-color: var(--blue-flag);
+    color: var(--white);
+    font-weight: 700;
 }
 
 #btn-candidates {

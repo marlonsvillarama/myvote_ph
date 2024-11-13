@@ -12,10 +12,13 @@
 @import url("global/boilerplate.css");
 @import url("global/fonts.css");
 @import url("global/buttons.css");
-/* @import url("global/wrapper.css"); */
+@import url("global/wrapper.css");
 @import url("components/header.css");
 @import url("components/nav.css");
+@import url("components/hero.css");
 @import url("components/main.css");
+@import url("components/mission.css");
+@import url("components/row.css");
 @import url("components/card.css");
 /* @import url("components/candidate.css"); */
 /* @import url("components/profile.css"); */

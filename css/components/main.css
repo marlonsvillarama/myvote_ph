@@ -1,13 +1,16 @@
 main {
-    margin: 120px auto 0;
+    /* margin: 120px auto 0; */
     border: 1px solid green;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2rem;
+    gap: 3rem;
 }
-@media (width >= 1200px) {
+/* main > * {
+    border: 1px solid red;
+} */
+/* @media (width >= 1200px) {
     main {
         max-width: 1200px;
     }
@@ -43,4 +46,4 @@ main>section.candidates {
     main>section.candidates {
         grid-template-columns: 1fr 1fr 1fr;
     }
-}
+} */

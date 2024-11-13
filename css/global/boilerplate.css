@@ -2,6 +2,12 @@
     --blue-900: #13183F;
     --blue-600: #666CA3;
     --blue-flag: #0032A0;
+    --blue-tone-1: #0571D0;
+    --blue-tone-2: #1171C5;
+    --blue-tone-3: #1C70B9;
+    --blue-tint-1: #3A6F9E;
+    --blue-tint-2: #5B8AB3;
+    --blue-tint-3: #82A8C9;
 
     --grey: #83869A;
     --grey-242: #F2F2F2;
@@ -14,6 +20,9 @@
     --white: #FFFFFF;
 
     --yellow-flag: #FED141;
+
+    --font-sans: 'Plus Jakarta Sans', Arial, Helvetica, sans-serif;
+    --font-serif: 'Lora', 'Times New Roman', serif;
 }
 
 *,
@@ -23,9 +32,10 @@
 }
 
 body {
-    font-family: 'Plus Jakarta Sans', Arial, Helvetica, sans-serif;
+    font-family: var(--font-serif);
     font-weight: 500;
     margin: 0;
+    background-color: var(--grey-242);
 }
 
 h1, h2, h3 {
