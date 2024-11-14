@@ -3,7 +3,7 @@
     width: 100%;
     height: 550px;
     padding-top: 70px;
-    background: linear-gradient(to bottom, var(--blue-tone-1) 0, var(--blue-tint-3) 70%, var(--grey-242) 100%);
+    background: linear-gradient(to bottom, var(--blue-flag) 0, var(--blue-tint-1) 55%, var(--blue-tint-3) 80%, var(--grey-242) 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,9 +12,19 @@
 }
 .hero .slogan {
     color: var(--white);
-    font-size: var(--fs-11);
+    font-family: var(--font-serif);
+    font-size: var(--fs-12);
+    /* text-transform: uppercase; */
 }
 .hero p {
     color: var(--grey-242);
     font-size: var(--fs-3);
+    font-family: var(--font-sans);
+}
+.hero p a {
+    padding: 0.75rem 1.5rem;
+    color: var(--white);
+    background-color: var(--red-flag);
+    border-radius: 6px;
+    margin-left: 0.5rem;
 }
