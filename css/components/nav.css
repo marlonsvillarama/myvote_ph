@@ -19,23 +19,20 @@ nav ul {
     padding: 0;
     overflow: hidden;
 }
-nav ul.parent-menu > li {
+nav li {
     /* border: 1px solid red; */
     display: inline;
-    margin-left: 12px;
+    margin-left: 0;
 }
-nav ul.parent-menu a {
+nav a {
     display: inline-block;
     color: var(--grey-42);
     font-size: var(--fs-6);
     /* padding: 0.5rem 1rem; */
     /* border-radius: 6px; */
     transition: all 100ms ease-in-out;
-    padding: 1rem 1rem;
+    padding: 1rem 1.5rem;
     font-weight: 500;
-}
-nav ul.child-menu {
-    display: none;
 }
 nav a.selected {
     background-color: var(--blue-flag);

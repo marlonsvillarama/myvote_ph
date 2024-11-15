@@ -6,21 +6,3 @@
 .row > * {
     margin: 0 auto;
 }
-.row .blurb {
-    width: 60%;
-    /* border: 1px solid red; */
-}
-.row .blurb > h1 {
-    font-family: var(--font-sans);
-    font-size: var(--fs-1);
-}
-.row .blurb > p {
-    font-size: var(--fs-4);
-    line-height: 2rem;
-}
-#fight-poverty.row {
-    background-color: var(--white);
-}
-#fight-poverty.row div > * {
-    text-align: center;
-}

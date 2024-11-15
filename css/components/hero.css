@@ -3,6 +3,7 @@
     width: 100%;
     height: 550px;
     padding-top: 70px;
+    padding-bottom: 2rem;
     background: linear-gradient(to bottom, var(--blue-flag) 0, var(--blue-tint-1) 55%, var(--blue-tint-3) 80%, var(--grey-242) 100%);
     display: flex;
     flex-direction: column;

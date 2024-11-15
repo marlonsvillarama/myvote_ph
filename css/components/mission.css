@@ -1,57 +1,21 @@
-.mission {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-    /* border: 1px solid red; */
-}
-.mission h1 {
-    display: block;
-    text-align: center;
-    font-family: var(--font-sans);
-}
-.goals {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 1.5rem;
-}
-.goal {
-    background-color: var(--grey);
-    border-radius: 6px;
-    padding: 1rem 1.5rem;
-    height: 30rem;
-    position: relative;
-    /* border: 1px solid var(--grey); */
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;    
-    background-size: 250%;
-    background-repeat: no-repeat;
-}
-.goal section {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    min-height: 10rem;
-    max-height: 10rem;
+#mission {
     background-color: var(--white);
-    /* border: 1px solid red; */
-    padding: 0.75rem 1.5rem 0;
-    /* border: 1px solid var(--grey); */
-    border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px;
 }
-.goal section h3 {
-    padding-bottom: 12px;
-    border-bottom: 2px solid var(--red-flag);
+.blurb {
+    text-align: center;
+    width: 60%;
 }
-#know {
-    background-image: url('../../assets/images/campaign.jpg');
-    background-position: -80px -60px;
+.blurb > h1 {
+    font-family: var(--font-sans);
+    font-size: var(--fs-12);
 }
-#issues {
-    background-image: url('../../assets/images/poverty.jpg');
-    background-position: -260px -220px;
+.blurb > p {
+    font-size: var(--fs-4);
+    line-height: 2rem;
 }
-#dynasty {
-    background-image: url('../../assets/images/philippines-elections.jpg');
-    background-position: -350px -200px;
+#fight-poverty.row {
+    background-color: var(--white);
+}
+#fight-poverty.row div > * {
+    text-align: center;
 }

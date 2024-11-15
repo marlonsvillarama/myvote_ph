@@ -28,6 +28,7 @@ header > .top {
     align-items: center;
     gap: 0.5rem;
     line-height: 2rem;
+    /* background-color: white; */
 }
 .logo > img {
     width: 48px;
