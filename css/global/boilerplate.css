@@ -13,6 +13,7 @@
     --grey-242: #F2F2F2;
     --grey-250: #FAFAFA;
     --grey-42: #424242;
+    --grey-33: #333333;
     --grey-ccc: #CCCCCC;
 
     --red-flag: #BF0D3E;
@@ -41,7 +42,7 @@ body {
     font-family: var(--font-serif);
     font-weight: 500;
     margin: 0;
-    background-color: var(--grey-242);
+    background-color: var(--white);
 }
 
 h1, h2, h3 {

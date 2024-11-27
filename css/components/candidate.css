@@ -1,7 +1,8 @@
 #candidates {
-    margin: 50px auto 0;
+    /* z-index: 5000; */
+    margin: 100px auto 0;
     background-color: var(--white);
-    /* border: 1px solid red; */
+    /* border: 1px solid green; */
 }
 #candidates .header {
     background-color: var(--blue-flag);
@@ -10,6 +11,7 @@
     top: 50px;
     left: 0;
     right: 0;
+    z-index: 999;
 }
 #candidates nav {
     background-color: var(--blue-flag);
@@ -28,11 +30,76 @@
 }
 
 #candidates .content {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-color: var(--white);
-    height: 500px;
-    margin-top: 100px;
+    /* height: 500px; */
+    /* margin-top: 100px; */
+    padding: 30px 0 50px;
 }
+#candidates h1 {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+    /* position: fixed; */
+    /* z-index: 999; */
+    /* border: 1px solid green; */
+    /* margin: auto; */
+}
+#candidates .content .list {
+    display: grid;
+    gap: 1rem;
+}
+@media (min-width: 640px) {
+    #candidates .content .list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (min-width: 960px) {
+    #candidates .content .list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+#candidates .content .card {
+    width: 100%;
+    /* border: 1px solid red; */
+    border-radius: 6px;
+    color: var(--grey-42);
+    min-height: 10rem;
+}
+#candidates .card img {
+    max-width: 300px;
+    /* max-height: 300px; */
+    /* overflow: hidden; */
+}
+#candidates .card h3 {
+    text-transform: uppercase;
+    font-family: var(--sans);
+    font-size: var(--fs-4);
+    color: var(--grey-42);
+}
+#candidates .card .tags {
+    list-style-type: none;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+#candidates .card .tags li {
+    float: left;
+    /* font-weight: 400; */
+    letter-spacing: 0.5px;
+    font-size: var(--fs-7);
+    margin-right: 8px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    padding: 0.25rem 1rem;
+    color: var(--white);
+    background-color: var(--blue-tint-3);
+}
+#candidates .card .tags li.alert {
+    background-color: var(--blue-tone-2);
+}
+
+
+
 /* .candidate {
     display: flex;
     flex-direction: column;

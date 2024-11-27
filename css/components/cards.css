@@ -5,6 +5,7 @@
     gap: 1.5rem;
 }
 .card {
+    cursor: pointer;
     border-radius: 6px;
     color: var(--grey-42);
     display: flex;
@@ -39,13 +40,14 @@
     left: 0;
     right: 0;
     min-height: 10rem;
-    max-height: 10rem;
+    /* max-height: 10rem; */
     background-color: var(--white);
     /* border: 1px solid red; */
-    padding: 0.75rem 1.5rem 0;
+    padding: 0.75rem 1.5rem;
     /* border: 1px solid var(--grey); */
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
+    text-align: center;
 }
 .card section h3 {
     padding-bottom: 12px;
