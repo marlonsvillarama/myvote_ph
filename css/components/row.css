@@ -1,0 +1,8 @@
+.row {
+    width: 100%;
+    /* border: 1px solid red; */
+    padding: 3rem 0;
+}
+.row > * {
+    margin: 0 auto;
+}

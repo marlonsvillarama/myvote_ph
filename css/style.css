@@ -1,0 +1,32 @@
+/* 
+1400 = 87.5
+1200 = 75
+992 = 62
+768 = 48
+640 = 40
+576 = 36
+360 = 22.5
+ */
+
+
+@import url("global/boilerplate.css");
+@import url("global/fonts.css");
+@import url("global/buttons.css");
+@import url("global/wrapper.css");
+@import url("components/header.css");
+@import url("components/nav.css");
+@import url("components/hero.css");
+@import url("components/main.css");
+@import url("components/row.css");
+@import url("components/cards.css");
+@import url("components/goals.css");
+@import url("components/mission.css");
+@import url("components/fraud.css");
+@import url("components/cta.css");
+@import url("components/footer.css");
+@import url("components/candidate.css");
+/* @import url("components/candidate.css"); */
+/* @import url("components/profile.css"); */
+/* @import url("components/profile-summary.css"); */
+/* @import url("components/profile-actions.css"); */
+/* @import url("components/profile-details.css"); */

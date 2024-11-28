@@ -1,0 +1,29 @@
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.detail h3 {
+    font-size: var(--fs-5);
+    font-weight: 500;
+    color: var(--grey-42);
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--grey-ccc);
+    text-align: center;
+}
+@media (width >= 62em) {
+    .detail h3 {
+        display: inline-block;
+    }
+}
+
+.detail ul, .detail p {
+    font-size: var(--fs-6);
+    line-height: 1.75rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+}
+.detail ul>li {
+    margin-bottom: 0.75rem;
+}

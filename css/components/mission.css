@@ -1,0 +1,21 @@
+#mission {
+    background-color: var(--white);
+}
+.blurb {
+    text-align: center;
+    width: 60%;
+}
+.blurb > h1 {
+    font-family: var(--font-sans);
+    font-size: var(--fs-12);
+}
+.blurb > p {
+    font-size: var(--fs-4);
+    line-height: 2rem;
+}
+#fight-poverty.row {
+    background-color: var(--white);
+}
+#fight-poverty.row div > * {
+    text-align: center;
+}

@@ -1,0 +1,51 @@
+nav {
+    background-color: var(--white);
+    /* border: 1px solid black; */
+    padding: 0;
+    /* border-radius: 6px;
+    display: flex;
+    gap: 8px; */
+}
+@media (width < 640px) {
+    nav {
+        display: none;
+    }
+}
+nav ul {
+    list-style-type: none;
+    /* border: 1px solid green; */
+    /* margin-left: -2rem; */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav li {
+    /* border: 1px solid red; */
+    display: inline;
+    margin-left: 0;
+}
+nav a {
+    display: inline-block;
+    color: var(--grey-42);
+    font-size: var(--fs-6);
+    /* padding: 0.5rem 1rem; */
+    /* border-radius: 6px; */
+    transition: all 100ms ease-in-out;
+    padding: 1rem 1.5rem;
+    font-weight: 500;
+}
+nav a.selected {
+    background-color: var(--blue-flag);
+    color: var(--white);
+}
+/* nav a.dropdown {
+    background-image: url("../../assets/line-angle-down-icon.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 20px;
+    padding-right: 3rem;
+    border: 1px solid red;
+} */
+nav a:hover:not(.selected) {
+    background-color: var(--grey-242);
+}

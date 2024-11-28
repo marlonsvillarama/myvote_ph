@@ -1,0 +1,17 @@
+.goals {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
+}
+#know {
+    background-image: url('../../assets/images/campaign.jpg');
+    background-position: -80px -60px;
+}
+#issues {
+    background-image: url('../../assets/images/poverty.jpg');
+    background-position: -260px -220px;
+}
+#dynasty {
+    background-image: url('../../assets/images/philippines-elections.jpg');
+    background-position: -350px -200px;
+}

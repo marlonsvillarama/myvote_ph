@@ -1,0 +1,69 @@
+:root {
+    --blue-900: #13183F;
+    --blue-600: #666CA3;
+    --blue-flag: #0032A0;
+    --blue-tone-1: #0571D0;
+    --blue-tone-2: #1171C5;
+    --blue-tone-3: #1C70B9;
+    --blue-tint-1: #3A6F9E;
+    --blue-tint-2: #5B8AB3;
+    --blue-tint-3: #82A8C9;
+
+    --grey: #83869A;
+    --grey-242: #F2F2F2;
+    --grey-250: #FAFAFA;
+    --grey-42: #424242;
+    --grey-33: #333333;
+    --grey-ccc: #CCCCCC;
+
+    --red-flag: #BF0D3E;
+    --red-tint-1: #BF012E;
+    --red-tint-2: #C61740;
+    --red-tint-3: #CD2F54;
+    --red-tint-4: #D44868;
+    --red-tint-5: #DB627E;
+    --red-tint-6: #E27E96;
+    
+    --white: #FFFFFF;
+
+    --yellow-flag: #FED141;
+
+    --font-sans: 'Plus Jakarta Sans', Arial, Helvetica, sans-serif;
+    --font-serif: 'Lora', 'Times New Roman', serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    margin: 0;
+    background-color: var(--white);
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+h1 {
+    font-size: 200%;
+    font-weight: 800;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}

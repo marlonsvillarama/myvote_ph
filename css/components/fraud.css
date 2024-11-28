@@ -1,0 +1,36 @@
+#fraud {
+    /* background: linear-gradient(var(--red-flag) 0, var(--red-tint-2) 50%, var(--white) 90%); */
+    background: var(--red-flag);
+    text-align: center;
+}
+#fraud h1 {
+    font-family: var(--font-serif);
+    font-size: var(--fs-12);
+    color: var(--white);
+    margin-bottom: 2rem;
+}
+#fraud > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+#fraud-1 {
+    background-image: url('../../assets/images/ICHRP-logo-short.png');
+    background-size: 75%;
+    background-position: 50% 20%;
+}
+#fraud-2 {
+    background-image: url('../../assets/images/abs-cbn.jpg');
+    background-size: cover;
+    background-position: 50% 20%;
+}
+#fraud-3 {
+    background-image: url('../../assets/images/smartmatic.jpg');
+    background-size: cover;
+    background-position: 50% 20%;
+}
+#fraud-4 {
+    background-image: url('../../assets/images/bbm-youth.png');
+    background-size: cover;
+    background-position: 50% 20%;
+}

@@ -1,0 +1,66 @@
+
+.actions {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+@media (width >= 62em) {
+    .actions {
+        align-self: flex-start;
+    }
+}
+
+.actions a {
+    color: var(--grey-42);
+    font-size: var(--fs-6);
+    padding: 1.5rem 2rem;
+    border: 2px solid var(--grey-242);
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-color: var(--white);
+    background-position: 50% 50%;
+}
+.actions a::after {
+    content: '';
+}
+a.like {
+    background-image: url("../../assets/heart-outline-icon.svg");
+}
+.actions a.discuss {
+    background-image: url("../../assets/speaking-bubbles-line-icon.svg");
+}
+.actions a.share {
+    background-image: url("../../assets/forward-arrow-outline-icon.svg");
+}
+.actions a.fact-check {
+    background-image: url("../../assets/exclamation-round-line-icon.svg");
+}
+@media (width >= 75em) {
+    .actions a {
+        color: var(--grey-42);
+        font-size: var(--fs-6);
+        padding: 0.75rem 2rem 0.75rem 4rem;
+        border: 2px solid var(--grey-242);
+        border-radius: 6px;
+        background-position: 1.5rem 50%;
+        background-repeat: no-repeat;
+    }
+    a.like::after {
+        content: 'I like this candidate'
+    }
+    a.discuss::after {
+        content: 'Discuss'
+    }
+    a.share::after {
+        content: 'Share'
+    }
+    a.fact-check::after {
+        content: 'Fact check'
+    }
+}
+.actions a:hover {
+    background-color: var(--grey-242);
+}
