@@ -1,0 +1,22 @@
+:root {
+    --br-sm: 640px;
+    --br-md: 768px;
+    --br-lg: 1024px;
+    --br-xl: 1280px;
+    --br-2xl: 1536px;
+
+    --color-default: rgb(17, 24, 39);
+    --color-slate-900: rgb(15, 23, 42);
+
+    --font-sans: "Inter", sans-serif;
+    --font-serif: 'Lora', 'Times New Roman', serif;
+    
+    --fs-xs: 0.75rem;
+    --fs-sm: 0.875rem;
+    --fs-md: 1rem;
+    --fs-lg: 1.125rem;
+    --fs-xl: 1.5rem;
+    --fs-2xl: 2rem;
+    --fs-3xl: 3rem;
+    --fs-4xl: 4rem;
+}
