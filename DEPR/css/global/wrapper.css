@@ -1,8 +1,10 @@
 .wrapper {
-    /* border: 1px solid green; */
-    width: 80%;
+    border: 1px solid green;
+    /* width: 80%; */
     max-width: 1200px;
     margin: 0 auto;
+    width: 80rem;
+    position: relative;
 }
 /* .wrapper {
     padding-inline: 20px;

@@ -1,3 +1,14 @@
+.grid-row-3 {
+    /* border: 1px solid red; */
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+.grid-row-3 > div {
+    border: 1px solid green;
+}
+
 .absolute {
     position: absolute;
 }

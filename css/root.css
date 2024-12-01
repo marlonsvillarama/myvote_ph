@@ -1,4 +1,6 @@
 :root {
+    --box-shadow: rgba(0, 0, 0, 0.8) 0px 3px 8px;
+
     --br-sm: 640px;
     --br-md: 768px;
     --br-lg: 1024px;
@@ -7,7 +9,8 @@
 
     --color-blue-flag: #0032A0;
     --color-default: rgb(17, 24, 39);
-    --color-red-flag: #BF0D3E;
+    --color-red-flag-lite: rgba(191, 13, 62, 0.8);
+    --color-red-flag: rgba(191, 13, 62);
     --color-slate-900: rgb(15, 23, 42);
     --color-white: #FFFFFF;
 

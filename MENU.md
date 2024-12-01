@@ -9,3 +9,7 @@ HOME
 - News
 - About
 - Sign Up/Login
+
+
+Hero
+Our advocacy
