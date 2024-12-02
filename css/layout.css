@@ -1,3 +1,27 @@
+.row {
+    /* border: 1px solid red; */
+}
+.row .content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.row .content h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    /* line-height: 4rem; */
+}
+.row .content p {
+    font-family: var(--font-serif);
+    font-size: 1.125rem;
+    line-height: 2.25rem;
+    letter-spacing: 0.5px;
+    /* border: 1px solid red; */
+    width: 60rem;
+    margin: 0 auto;
+}
 .grid-row-3 {
     /* border: 1px solid red; */
     width: 100%;
