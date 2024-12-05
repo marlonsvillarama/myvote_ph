@@ -30,11 +30,14 @@
     gap: 4rem;
 }
 .hero .content h1 {
-    font-size: 3rem;
+    /* background: rgba(0, 0, 0, 0.5); */
+    font-size: 4rem;
     font-weight: 600;
     letter-spacing: -0.5px;
     /* border: 1px solid red; */
     line-height: 4rem;
+    display: inline-block;
+    /* padding: 1rem; */
 }
 .hero .content p {
     font-family: var(--font-serif);
