@@ -9,3 +9,7 @@ HOME
 - News
 - About
 - Sign Up/Login
+
+
+HOME PAGE
+- Hero
