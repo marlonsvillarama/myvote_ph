@@ -74,12 +74,19 @@
 
 <style>
     .banner {
-        padding: 2.75rem 0 1.5rem;
+        padding: 4.25rem 0 1.5rem;
         /* background: linear-gradient(var(--color-blue-flag) 0, var(--color-blue-flag) 60%, white ); */
         background-color: var(--color-blue-flag);
+        font-size: var(--fs-md);
         opacity: 0.7;
         color: white;
         font-weight: 700;
+        line-height: 2.25rem;
+    }
+    @media (min-width: 60rem) {
+        .banner {
+            padding-top: 4.75rem
+        }
     }
     .candidate {
         display: flex;

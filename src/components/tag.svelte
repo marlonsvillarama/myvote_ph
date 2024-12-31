@@ -53,13 +53,19 @@
     .tag {
 		padding: 0.25rem 1rem;
         line-height: 1.6rem;
+		font-size: var(--fs-xs);
 		border-radius: 4px;
 		background-color: rgba(0, 0, 0, 0.1);
 		/* color: var(--color-default); */
-		font-size: var(--fs-sm);
         letter-spacing: 0.25px;
         position: relative;
 	}
+    @media (min-width: 60rem) {
+        .tag {
+            /* font-size: var(--fs-sm); */
+            font-size: var(--fs-xs);
+        }
+    }
 	.tag.alert,
     .tag.selected,
     .tag.selected:hover {
