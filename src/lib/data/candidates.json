@@ -1,0 +1,1559 @@
+{
+    "president": [],
+    "vice-president": [],
+    "senate": [
+        {
+            "id": "1",
+            "slug": "abalos",
+            "fn": "Benjamin De Castro Jr.",
+            "short_fn": "Benhur",
+            "ln": "Abalos",
+            "dob": "19620719",
+            "job": "Former DILG secretary",
+            "term": 1,
+            "tags": [
+                "PF",
+                "FM",
+                "FR",
+                "FCM"
+            ],
+            "web": "https://benjaminabalosjr.com/",
+            "email": "",
+            "party": "Partido Federal ng Pilipinas",
+            "exp": [{
+                "value": "Secretary - Department of Interior and Local Government (2022-2024)",
+                "sub": [
+                    "Implementation of the \"Buhay Ingatan, Droga'y Ayawan (BIDA)\" program"
+                ]
+            }, {
+                "value": "Chairman - Metropolitan Manila Development Authority (2021-2022)"
+            }, {
+                "value": "Mayor - Mandaluyong City, Metro Manila (2007-2016)",
+                "sub": [
+                    "Best Mayor (2015)"
+                ]
+            }, {
+                "value": "Congressman - Mandaluyong Lone District (2004-2007)"
+            }, {
+                "value": "Mayor - Mandaluyong City, Metro Manila (1998-2004)",
+                "sub": [
+                    "Transformed Mandaluyong City into \"Tiger City of the Philippines\" during first term as Mayor.",
+                    "Most Outstanding City Mayor, Local Government Leadership Award (2003)",
+                    "Outstanding Mayor of the Philippines (2000)"
+                ]
+            }, {
+                "value": "City Councilor - Mandaluyong City,Metro Manila (1995-1998)"
+            }],
+            "leg": {
+                "pr": {
+                    "total": 22,
+                    "list": [
+                        {
+                            "link": "https://www.officialgazette.gov.ph/2007/03/18/republic-act-no-9397/",
+                            "text": "Republic Act 9397 - \"No-Bidding\" sale of government-owned properties to its occupants for socialized housing"
+                        }
+                    ]
+                },
+                "co": {
+                    "total": 0,
+                    "list": []
+                }
+            },
+            "adv": [],
+            "pf": [{
+                "name": "Benjamin Abalos Sr.",
+                "rel": "Father",
+                "pos": "Mayor, Mandaluyong City (Incumbent)"
+            }, {
+                "name": "Carmelita Abalos",
+                "rel": "Wife",
+                "pos": "Vice Mayor, Mandaluyong City (Incumbent)"
+            }, {
+                "name": "Charisse Marie Abalos",
+                "rel": "Daughter",
+                "pos": "Councilor, 1st District, Mandaluyong City (2013-2022)"
+            }, {
+                "name": "Benjamin Abalos III",
+                "rel": "Son",
+                "pos": "Councilor, 2nd District, Mandaluyong City (Incumbent)"
+            }],
+            "nw": 0,
+            "ed": [
+                "Ateneo de Manila University - Bachelor of Laws",
+                "De La Salle University - Bachelor of Arts in History and Political Science"
+            ],
+            "news": [
+                {
+                    "link": "https://www.gmanetwork.com/news/topstories/nation/919508/abalos-explains-viral-photo-with-alice-guo/story/",
+                    "text": "Abalos explains viral photo with Alice Guo"
+                },
+                {
+                    "link": "https://www.gmanetwork.com/news/topstories/nation/919806/abalos-complaint-duterte-quiboloy/story/#goog_rewarded",
+                    "text": "Abalos says ex-Pres. Duterte has filed complaint against him, Marbil amid Quiboloy hunt"
+                },
+                {
+                    "link": "https://www.manilatimes.net/2023/01/30/news/regions/abalos-govt-in-big-fight-vs-drug-rings/1876455",
+                    "text": "Abalos: Govt in big fight vs drug rings"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "slug": "adonis",
+            "fn": "Ronaldo Mangampo",
+            "short_fn": "Ronaldo",
+            "ln": "Adonis",
+            "dob": "",
+            "job": "-",
+            "term": 1,
+            "tags": [
+                "T1"
+            ],
+            "party": "Makabayan",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "3",
+            "slug": "amad",
+            "fn": "Wilson Caritero",
+            "short_fn": "Wilson",
+            "ln": "Amad",
+            "dob": "",
+            "job": "Consultant for the poor",
+            "term": 1,
+            "tags": [
+                "T1",
+                "IN"
+            ],
+            "web": "https://www.facebook.com/wilson.caritero.amad",
+            "email": "",
+            "party": "Independent",
+            "exp": [{
+                "value": "Spokesman - Plaridel Higaonon Tribal Council"
+            }, {
+                "value": "General Manager - Boom Marine Corporation"
+            }, {
+                "value": "President - Confederation of Exporters (Region 10-A)"
+            }, {
+                "value": "Visayas-Mindanao Regional Manager - Phiko Ubins Ltd. Corp."
+            }, {
+                "value": "Board of Directors - Phividec Industrial Authority Misamis Oriental Enterprises"
+            }],
+            "adv": [
+                "Indigenous people of Mindanao and people living in forest lands",
+                "Against excessive government bureaucracy",
+                "Environment activism",
+                "Improvement of animal rights"
+            ],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "4",
+            "slug": "andamo",
+            "fn": "Jocelyn Santos",
+            "short_fn": "Jocelyn",
+            "ln": "Andamo",
+            "dob": "",
+            "job": "Registered nurse",
+            "term": 1,
+            "tags": [
+                "T1"
+            ],
+            "party": "Makabayan",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [
+                "Far Eastern University - Bachelor of Nursing"
+            ],
+            "news": [
+                {
+                    "link": "https://phkule.org/article/1307/nurse-jocelyn-andamo-the-senate-aspirant-who-hopes-to-cure-the-nations-health-care-ills/",
+                    "text": "Nurse Jocelyn Andamo, the Senate Aspirant Who Hopes to Cure the Nation's Health Care Ills"
+                },
+                {
+                    "link": "https://www.facebook.com/watch/?v=496708685670710",
+                    "text": "Full Interview: Jocelyn Andamo"
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "slug": "aquino",
+            "fn": "Paolo Benigno “Bam” IV Aguirre",
+            "short_fn": "Bam",
+            "ln": "Aquino",
+            "dob": "19770507",
+            "job": "Entrepreneur",
+            "term": 2,
+            "tags": [
+                "PF",
+                "FS",
+                "T2"
+            ],
+            "web": "https://bamaquino.com",
+            "email": "",
+            "party": "Katipunan ng Nagkakaisang Pilipino",
+            "exp": [{
+                "value": "Senator (2013-2019)",
+                "sub": [
+                    "Deputy Senate Minority Leader (2017-2019)"
+                ]
+            }, {
+                "value": "President - MicroVentures Foundation (2012-2013)"
+            }, {
+                "value": "President - MicroVentures Incorporated (2007-2012)",
+                "sub": [
+                    "Ten Outstanding Young Persons of the World (2012)",
+                    "Ten Outstanding Young Men of the Philippines (2010)"
+                ]
+            }, {
+                "value": "Chairman - National Youth Commission (2003-2006)"
+            }, {
+                "value": "Commissioner - National Youth Commission (2001-2003)"
+            }],
+            "leg": {
+                "pr": {
+                    "total": 1,
+                    "list": [{
+                        "link": "https://lawphil.net/statutes/repacts/ra2014/ra_10645_2014.html",
+                        "text": "Republic Act 10645 - Mandatory PhilHealth coverage for senior citizens",
+                        "desc": "This law gave all senior citizens automatic coverage by PhilHealth."
+                    }, {
+                        "link": "https://jur.ph/law/summary/expansion-of-benefits-and-privileges-of-persons-with-disability-pwd",
+                        "text": "Republic Act 10754 - Expanding the benefits of PWDs",
+                        "desc": "Persons With Disabilities (PWDs) can now enjoy a minimum of 20% discount and exemption from VAT for goods and services."
+                    }]
+                },
+                "co": {
+                    "total": 1,
+                    "list": [{
+                        "link": "https://lawphil.net/statutes/repacts/ra2017/ra_10931_2017.html",
+                        "text": "Republic Act 10931 - Free college or universal access to quality tertiary education",
+                        "desc": "This law granted tuition-free education for state universities, colleges, and technical schools."
+                    }, {
+                        "link": "https://lawphil.net/statutes/repacts/ra2014/ra_10645_2014.html",
+                        "text": "Republic Act 10645 - Mandatory PhilHealth coverage for senior citizens",
+                        "desc": "This law gave all senior citizens automatic coverage by PhilHealth."
+                    }, {
+                        "link": "https://jur.ph/law/summary/expansion-of-benefits-and-privileges-of-persons-with-disability-pwd",
+                        "text": "Republic Act 10754 - Expanding the benefits of PWDs",
+                        "desc": "Persons With Disabilities (PWDs) can now enjoy a minimum of 20% discount and exemption from VAT for goods and services."
+                    }]
+                }
+            },
+            "adv": [{
+                "title": "Social entrepreneurship",
+                "desc": "..."
+            }, {
+                "title": "Free and affordable college education",
+                "desc": "..."
+            }, {
+                "title": "Renewable energy",
+                "desc": "..."
+            }],
+            "pf": [{
+                "name": "Benigno \"Ninoy\" Aquino Jr.",
+                "rel": "Uncle",
+                "pos": "Senator (1967-1972)"
+            }, {
+                "name": "Corazon Aquino",
+                "rel": "Aunt",
+                "pos": "President (1986-1992)"
+            }, {
+                "name": "Benigno Aquino III",
+                "rel": "Cousin",
+                "pos": "President (2010-2016)"
+            }, {
+                "name": "Benigno Aquino Sr.",
+                "rel": "Grandfather",
+                "pos": "Congressman (1943-1944)"
+            }, {
+                "name": "Agapito \"Butz\" Aquino",
+                "rel": "Uncle",
+                "pos": "Senator (1987-1995)"
+            }, {
+                "name": "Tessie Aquino-Oreta",
+                "rel": "Aunt",
+                "pos": "Senator (1987-1998)"
+            }],
+            "nw": 0,
+            "ed": [
+                "Ateneo de Manila University - Bachelor of Science (Management Engineering)",
+                "De La Salle University - Bachelor of Arts in History and Political Science"
+            ],
+            "news": [
+                {
+                    "link": "https://news.abs-cbn.com/news/2024/11/9/kiko-pangilinan-bam-aquino-launch-kibam-grassroots-campaign-1621",
+                    "text": "Senatorial bets Kiko Pangilinan, Bam Aquino launch 'KiBam' grassroots campaign"
+                },
+                {
+                    "link": "https://asiasociety.org/philippines/sen-bam-aquino-calls-citizens-defend-truth",
+                    "text": "Sen. Bam Aquino Calls for Citizens to Defend Truth"
+                },
+                {
+                    "link": "https://power4all.org/articles/news/senator-bam-aquino-advocates-renewable-energy",
+                    "text": "Senator Bam Aquino Advocates Renewable Energy"
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "slug": "arambulo",
+            "fn": "Ronnel Gondraneos",
+            "short_fn": "Ronnel",
+            "ln": "Arambulo",
+            "dob": "",
+            "job": "Fisherfolk",
+            "term": 1,
+            "tags": [
+                "AC",
+                "T1"
+            ],
+            "party": "Makabayan",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "7",
+            "slug": "arellano",
+            "fn": "Ernesto Rillera",
+            "short_fn": "Ernesto",
+            "ln": "Arellano",
+            "dob": "",
+            "job": "Lawyer",
+            "term": 1,
+            "tags": [
+                "T1"
+            ],
+            "party": "Kamalayang Kayumanggi",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "8",
+            "slug": "ballon",
+            "fn": "Roberto Amido",
+            "short_fn": "Roberto",
+            "ln": "Ballon",
+            "dob": "",
+            "job": "Fisherfolk",
+            "term": 1,
+            "tags": [
+                "AC",
+                "T1"
+            ],
+            "party": "Independent",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "9",
+            "slug": "binay",
+            "fn": "Mar-Len Abigail Sombillo",
+            "short_fn": "Abby",
+            "ln": "Binay",
+            "dob": "19751212",
+            "job": "Mayor (Makati)",
+            "term": 1,
+            "tags": [
+                "PF",
+                "T1"
+            ],
+            "web": "https://www.facebook.com/abby.binay",
+            "email": "",
+            "party": "Nationalist People's Coalition",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "10",
+            "slug": "bondoc",
+            "fn": "James Patrick Romero",
+            "short_fn": "Jimmy",
+            "ln": "Bondoc",
+            "dob": "19750531",
+            "job": "Lawyer / Songwriter",
+            "term": 1,
+            "tags": [
+                "T1"
+            ],
+            "party": "PDP-Laban",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "11",
+            "slug": "bosita",
+            "fn": "Bonifacio Laqui",
+            "short_fn": "Bonifacio",
+            "ln": "Bosita",
+            "dob": "19661130",
+            "job": "Retired Police Colonel",
+            "term": 1,
+            "tags": [
+                "MLT",
+                "T1"
+            ],
+            "party": "Independent",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "12",
+            "slug": "brosas",
+            "fn": "Arlene Duran",
+            "short_fn": "Arlene",
+            "ln": "Brosas",
+            "dob": "",
+            "job": "Congresswoman",
+            "term": 1,
+            "tags": [
+                "T1"
+            ],
+            "party": "Makabayan",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "13",
+            "slug": "cabonegro",
+            "fn": "Roy Jerusalem",
+            "short_fn": "Roy",
+            "ln": "Cabonegro",
+            "dob": "19740319",
+            "job": "Environmentalist",
+            "term": 1,
+            "tags": [
+                "T1"
+            ],
+            "party": "Democratic Party of the Philippines",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "14",
+            "slug": "capuyan",
+            "fn": "Allen Arat",
+            "short_fn": "Allen",
+            "ln": "Capuyan",
+            "dob": "",
+            "job": "Former Colonel",
+            "term": 1,
+            "tags": [
+                "T1"
+            ],
+            "party": "Partido Pilipino sa Pagbabago",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "15",
+            "slug": "casino",
+            "fn": "Teodoro Acevedo",
+            "short_fn": "Teddy",
+            "ln": "Casiño",
+            "dob": "19681115",
+            "job": "Congressman",
+            "term": 1,
+            "tags": [
+                "T1"
+            ],
+            "party": "Makabayan",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "16",
+            "slug": "castro",
+            "fn": "Francisca Lustina",
+            "short_fn": "Francisca",
+            "ln": "Castro",
+            "dob": "19660524",
+            "job": "Congresswoman",
+            "term": 1,
+            "tags": [
+                "T1"
+            ],
+            "party": "Makabayan",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "17",
+            "slug": "cayetano",
+            "fn": "Pilar Juliana Schramm",
+            "short_fn": "Pia",
+            "ln": "Cayetano",
+            "dob": "19660522",
+            "job": "Senator",
+            "term": 2,
+            "tags": [
+                "FR",
+                "PF",
+                "T2"
+            ],
+            "party": "Nacionalista Party",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "18",
+            "slug": "dealban",
+            "fn": "Angelo Castro",
+            "short_fn": "Angelo",
+            "ln": "De Alban",
+            "dob": "",
+            "job": "-",
+            "term": 1,
+            "tags": [
+                "T1"
+            ],
+            "party": "Independent",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "19",
+            "slug": "dangelo",
+            "fn": "David Delano",
+            "short_fn": "David",
+            "ln": "D'Angelo",
+            "dob": "",
+            "job": "-",
+            "term": 1,
+            "tags": [
+                "T1"
+            ],
+            "party": "Bunyog Pagkakaisa Party",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "20",
+            "slug": "deguzman",
+            "fn": "Leodegario Quitain",
+            "short_fn": "Leody",
+            "ln": "De Guzman",
+            "dob": "19590725",
+            "job": "Labor Leader",
+            "term": 1,
+            "tags": [
+                "AC",
+                "O60",
+                "T1"
+            ],
+            "party": "Partido Lakas ng Masa",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "21",
+            "slug": "delarosa",
+            "fn": "Ronald Marapon",
+            "short_fn": "Ronald \"Bato\"",
+            "ln": "Dela Rosa",
+            "dob": "19620121",
+            "job": "Senator",
+            "term": 2,
+            "tags": [
+                "O60",
+                "T1"
+            ],
+            "party": "PDP-Laban",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "22",
+            "slug": "doringo",
+            "fn": "Eufemia Pet",
+            "short_fn": "Eufemia",
+            "ln": "Doringo",
+            "dob": "",
+            "job": "-",
+            "term": 1,
+            "tags": [
+                "T1"
+            ],
+            "party": "Makabayan",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "23",
+            "slug": "escobal",
+            "fn": "Arnel Bondilles",
+            "short_fn": "Arnel",
+            "ln": "Escobal",
+            "dob": "",
+            "job": "Former Police General",
+            "term": 1,
+            "tags": [
+                "T1"
+            ],
+            "party": "Partido Maharlika",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [
+                "The University of Salford - Master of Laws in International Commercial Law, International Law and Commerce",
+                "University of Santo Tomas (Legazpi) - Master of Business Administration",
+                "University of Santo Tomas (Legazpi) - Juris Doctor",
+                "Philippine Military Academy - Class of 1987"
+            ],
+            "news": []
+        },
+        {
+            "id": "24",
+            "slug": "espiritu",
+            "fn": "Renecio Jr. Santos",
+            "short_fn": "Luke",
+            "ln": "Espiritu",
+            "dob": "19741018",
+            "job": "Labor Leader",
+            "term": 1,
+            "tags": [
+                "T1"
+            ],
+            "party": "Partido Lakas ng Masa",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "25",
+            "slug": "floranda",
+            "fn": "Modesto Toque",
+            "short_fn": "Mody",
+            "ln": "Floranda",
+            "dob": "",
+            "job": "Transport Labor Leader",
+            "term": 1,
+            "tags": [
+                "T1"
+            ],
+            "party": "Makabayan",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "26",
+            "slug": "gamboa",
+            "fn": "Marc Louie Santos",
+            "short_fn": "Marc",
+            "ln": "Gamboa",
+            "dob": "",
+            "job": "Political Vlogger",
+            "term": 1,
+            "tags": [
+                "T1"
+            ],
+            "party": "Independent",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "27",
+            "slug": "go",
+            "fn": "Christopher Lawrence Tesoro",
+            "short_fn": "Bong",
+            "ln": "Go",
+            "dob": "19740614",
+            "job": "Senator",
+            "term": 2,
+            "tags": [
+                "T2"
+            ],
+            "party": "PDP-Laban",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "28",
+            "slug": "gonzales",
+            "fn": "Norberto Borja",
+            "short_fn": "Norberto",
+            "ln": "Gonzales",
+            "dob": "19470417",
+            "job": "Former Defense Secretary",
+            "term": 1,
+            "tags": [
+                "FCM",
+                "O70",
+                "T1"
+            ],
+            "party": "Partido Demokratiko Sosyalista ng Pilipinas",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "29",
+            "slug": "hinlo",
+            "fn": "Jesus Jr. Villanueva",
+            "short_fn": "Jayvee",
+            "ln": "Hinlo",
+            "dob": "",
+            "job": "Lawyer",
+            "term": 1,
+            "tags": [
+                "T1"
+            ],
+            "party": "PDP-Laban",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "30",
+            "slug": "honasan",
+            "fn": "Gregorio Ballesteros",
+            "short_fn": "Gregorio",
+            "ln": "Honasan",
+            "dob": "19480314",
+            "job": "Former Senator",
+            "term": 3,
+            "tags": [
+                "FCM",
+                "O70",
+                "T3"
+            ],
+            "party": "Reform PH-People's Party",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [
+                "Philippine Military Academy - Class of 1971 (Class Baron)"
+            ],
+            "news": []
+        },
+        {
+            "id": "31",
+            "slug": "jose",
+            "fn": "Relly Jr. Nufable",
+            "short_fn": "Relly Jr.",
+            "ln": "Jose",
+            "dob": "",
+            "job": "Retired Captain",
+            "term": 1,
+            "tags": [
+                "T1"
+            ],
+            "party": "Kilusang Bagong Lipunan",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "32",
+            "slug": "lacson",
+            "fn": "Panfilo Morena",
+            "short_fn": "Panfilo",
+            "ln": "Lacson",
+            "dob": "19480601",
+            "job": "Former Senator",
+            "term": 4,
+            "tags": [
+                "FS",
+                "T4"
+            ],
+            "party": "Independent",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [
+                "Pamantasan ng Lungsod ng Maynila - Doctor of Laws, Honoris Causa",
+                "Pamantasan ng Lungsod ng Maynila - Master in Government Management",
+                "Philippine Military Academy - Class of 1971"
+            ],
+            "news": []
+        },
+        {
+            "id": "33",
+            "slug": "lambino",
+            "fn": "Raul Loyola",
+            "short_fn": "Raul",
+            "ln": "Lambino",
+            "dob": "",
+            "job": "",
+            "term": 1,
+            "tags": [
+                "T1"
+            ],
+            "party": "PDP-Laban",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "34",
+            "slug": "lapid",
+            "fn": "Manuel Mercado",
+            "short_fn": "Lito",
+            "ln": "Lapid",
+            "dob": "",
+            "job": "Former Senator",
+            "term": 1,
+            "tags": [
+                "T1"
+            ],
+            "party": "Nationalist People's Coalition",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "35",
+            "slug": "lee",
+            "fn": "Wilbert Te",
+            "short_fn": "Wilbert",
+            "ln": "Lee",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                "T1"
+            ],
+            "party": "Aksyon Demokratiko",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "36",
+            "slug": "lidasan",
+            "fn": "Amirah Ali",
+            "short_fn": "Amirah",
+            "ln": "Lidasan",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                "T1"
+            ],
+            "party": "Makabayan",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "37",
+            "slug": "marcoleta",
+            "fn": "Rodante Dizon",
+            "short_fn": "Rodante",
+            "ln": "Marcoleta",
+            "dob": "",
+            "job": "Congressman",
+            "term": 1,
+            "tags": [
+                "T1"
+            ],
+            "party": "Independent",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "38",
+            "slug": "marcos",
+            "fn": "Maria Imelda Romualdez",
+            "short_fn": "Imee",
+            "ln": "Marcos",
+            "dob": "",
+            "job": "Senator",
+            "term": 1,
+            "tags": [
+                "PF",
+                "T1"
+            ],
+            "party": "Nacionalista Party",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "39",
+            "slug": "marquez",
+            "fn": "Norman Cordero",
+            "short_fn": "Norman",
+            "ln": "Marquez",
+            "dob": "",
+            "term": 1,
+            "tags": [
+                "T1"
+            ],
+            "party": "Independent",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "40",
+            "slug": "martinez",
+            "fn": "Eric Morales",
+            "short_fn": "Eric",
+            "ln": "Martinez",
+            "dob": "",
+            "job": "Congressman",
+            "term": 1,
+            "tags": [
+                "T1"
+            ],
+            "party": "Independent",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "41",
+            "slug": "mata",
+            "fn": "Richard Tesorio",
+            "short_fn": "Richard",
+            "ln": "Mata",
+            "dob": "",
+            "job": "Medical doctor",
+            "term": 1,
+            "tags": [
+                "T1"
+            ],
+            "party": "Independent",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "42",
+            "slug": "matula",
+            "fn": "Jose Sonny Gito",
+            "short_fn": "Sonny",
+            "ln": "Matula",
+            "dob": "",
+            "job": "Lawyer / Labor leader",
+            "term": 1,
+            "tags": [
+                "T1"
+            ],
+            "party": "Workers and Peasants Party",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "43",
+            "slug": "maza",
+            "fn": "Liza Largoza",
+            "short_fn": "Liza",
+            "ln": "Maza",
+            "dob": "",
+            "job": "Congresswoman",
+            "term": 1,
+            "tags": [
+                "T1"
+            ],
+            "party": "Makabayan",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "44",
+            "slug": "mendoza",
+            "fn": "Heidi Lloce",
+            "short_fn": "Heidi",
+            "ln": "Mendoza",
+            "dob": "",
+            "job": "Former Commissioner",
+            "term": 1,
+            "tags": [
+                "T1"
+            ],
+            "party": "Independent",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "45",
+            "slug": "montemayor",
+            "fn": "Jose Jr. Cabrera",
+            "short_fn": "Jose Jr.",
+            "ln": "Montemayor",
+            "dob": "",
+            "job": "Lawyer",
+            "term": 1,
+            "tags": [
+                "T1"
+            ],
+            "party": "Partido Pederal ng Maharlika",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "46",
+            "slug": "olivar",
+            "fn": "Jose Jessie Dela Calsada",
+            "short_fn": "Jessie",
+            "ln": "Olivar",
+            "dob": "",
+            "job": "Activist",
+            "term": 1,
+            "tags": [
+                "T1"
+            ],
+            "party": "Independent",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "47",
+            "slug": "ong",
+            "fn": "Willie Tan",
+            "short_fn": "Willie",
+            "ln": "Ong",
+            "dob": "",
+            "job": "Medical doctor",
+            "term": 1,
+            "tags": [
+                "T1"
+            ],
+            "party": "Aksyon Demokratiko",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "48",
+            "slug": "pacquiao",
+            "fn": "Emmanuel Dapidran",
+            "short_fn": "Manny",
+            "ln": "Pacquiao",
+            "dob": "",
+            "job": "Former Senator",
+            "term": 1,
+            "tags": [
+                "T1"
+            ],
+            "party": "Partido Federal ng Pilipinas",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "49",
+            "slug": "pangilinan",
+            "fn": "Francis Pancratius Nepomuceno",
+            "short_fn": "Kiko",
+            "ln": "Pangilinan",
+            "dob": "",
+            "job": "Former Senator",
+            "term": 3,
+            "tags": [
+                "T1"
+            ],
+            "party": "Liberal Party of the Philippines",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "50",
+            "slug": "querubin",
+            "fn": "Ariel Porfirio Oliva",
+            "short_fn": "Ariel",
+            "ln": "Querubin",
+            "dob": "",
+            "job": "Retired Army Colonel",
+            "term": 1,
+            "tags": [
+                "T1"
+            ],
+            "party": "Nacionalista Party",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "51",
+            "slug": "quiboloy",
+            "fn": "Apollo Carreon",
+            "short_fn": "Apollo",
+            "ln": "Quiboloy",
+            "dob": "",
+            "job": "Pastor",
+            "term": 1,
+            "tags": [
+                "CR",
+                "T1"
+            ],
+            "party": "Workers and Peasants Party",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "52",
+            "slug": "ramos",
+            "fn": "Danilo Hernandez",
+            "short_fn": "Danilo",
+            "ln": "Ramos",
+            "dob": "",
+            "job": "Farmer / Activist",
+            "term": 1,
+            "tags": [
+                "T1"
+            ],
+            "party": "Makabayan",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "53",
+            "slug": "revilla",
+            "fn": "Ramon Jr. Bautista",
+            "short_fn": "Bong",
+            "ln": "Revilla",
+            "dob": "19660925",
+            "job": "Senator",
+            "term": 2,
+            "tags": [
+                "T2"
+            ],
+            "party": "Lakas-CMD",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "54",
+            "slug": "revillame",
+            "fn": "Wilfredo Buendia",
+            "short_fn": "Willie",
+            "ln": "Revillame",
+            "dob": "19610127",
+            "job": "Television host",
+            "term": 1,
+            "tags": [
+                "T1"
+            ],
+            "party": "Independent",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "55",
+            "slug": "rodriguez",
+            "fn": "Victor Dayrit",
+            "short_fn": "Vic",
+            "ln": "Rodriguez",
+            "dob": "19731223",
+            "job": "Lawyer",
+            "term": 1,
+            "tags": [
+                "T1"
+            ],
+            "party": "Independent",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "56",
+            "slug": "sahidulla",
+            "fn": "Nur-Ana Indanan",
+            "short_fn": "Nur-Ana",
+            "ln": "Sahidulla",
+            "dob": "19590921",
+            "job": "Former Congresswoman",
+            "term": 1,
+            "tags": [
+                "T1"
+            ],
+            "party": "Independent",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "57",
+            "slug": "salvador",
+            "fn": "Phillip Reyes",
+            "short_fn": "Phillip",
+            "ln": "Salvador",
+            "dob": "19530821",
+            "job": "Actor",
+            "term": 1,
+            "tags": [
+                "CR",
+                "T1"
+            ],
+            "party": "PDP-Laban",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "52",
+            "slug": "singson",
+            "fn": "Luis Crisologo",
+            "short_fn": "Chavit",
+            "ln": "Singson",
+            "dob": "19410621",
+            "job": "Former Mayor",
+            "term": 1,
+            "tags": [
+                "T1"
+            ],
+            "party": "Independent",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "59",
+            "slug": "sotto",
+            "fn": "Vicente III Castelo",
+            "short_fn": "Tito",
+            "ln": "Sotto",
+            "dob": "19480824",
+            "job": "Former Senator",
+            "term": 1,
+            "tags": [
+                "T1"
+            ],
+            "party": "Nationalist People's Coalition",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "60",
+            "slug": "tapado",
+            "fn": "Michael Balais",
+            "short_fn": "Michael",
+            "ln": "Tapado",
+            "dob": "",
+            "job": "Evangelist",
+            "term": 1,
+            "tags": [
+                "T1"
+            ],
+            "party": "Partido Maharlika",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "61",
+            "slug": "tolentino",
+            "fn": "Francis Ng",
+            "short_fn": "Francis",
+            "ln": "Tolentino",
+            "dob": "19600103",
+            "job": "Senator",
+            "term": 1,
+            "tags": [
+                "T1"
+            ],
+            "party": "Partido Federal ng Pilipinas",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "62",
+            "slug": "tulfo-ben",
+            "fn": "Bienvenido Teshiba",
+            "short_fn": "Ben",
+            "ln": "Tulfo",
+            "dob": "19550315",
+            "job": "Radio personality",
+            "term": 1,
+            "tags": [
+                "T1"
+            ],
+            "party": "Independent",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "63",
+            "slug": "tulfo-erwin",
+            "fn": "Erwin Teshiba",
+            "short_fn": "Erwin",
+            "ln": "Tulfo",
+            "dob": "19640810",
+            "job": "Senator",
+            "term": 2,
+            "tags": [
+                "T2"
+            ],
+            "party": "Lakas-CMD",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "64",
+            "slug": "valbuena",
+            "fn": "Mario Jr. Soliven",
+            "short_fn": "Mario Jr.",
+            "ln": "Valbuena",
+            "dob": "",
+            "job": "Activist",
+            "term": 1,
+            "tags": [
+                "T1"
+            ],
+            "party": "Independent",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "65",
+            "slug": "verceles",
+            "fn": "Leandro Buenconsejo",
+            "short_fn": "Leandro",
+            "ln": "Verceles",
+            "dob": "19570111",
+            "job": "Former Congressman",
+            "term": 1,
+            "tags": [
+                "T1"
+            ],
+            "party": "Independent",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        },
+        {
+            "id": "66",
+            "slug": "villar",
+            "fn": "Camille Aguilar",
+            "short_fn": "Camille",
+            "ln": "Villar",
+            "dob": "19850125",
+            "job": "Congresswoman",
+            "term": 1,
+            "tags": [
+                "PF",
+                "BIL"
+            ],
+            "party": "Nacionalista Party",
+            "exp": [],
+            "adv": [],
+            "pf": [],
+            "nw": 0,
+            "ed": [],
+            "news": []
+        }
+    ],
+    "representative": []
+}
