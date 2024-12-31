@@ -85,9 +85,9 @@
     </div>
 </div>
 
-<div class="info wrapper">
+<!-- <div class="info wrapper">
     <TypeInfo data={types} />
-</div>
+</div> -->
 
 <div class="filters wrapper">
     <Filters list={data.tags} filters={filters} on:select={filterList} on:clear={clearFilters} />
