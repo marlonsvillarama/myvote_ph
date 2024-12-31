@@ -85,13 +85,13 @@
     </div>
 </div>
 
-<div class="info wrapper">
+<!-- <div class="info wrapper">
     <TypeInfo data={types} />
-</div>
+</div> -->
 
-<div class="filters wrapper">
+<!-- <div class="filters wrapper">
     <Filters list={data.tags} filters={filters} on:select={filterList} on:clear={clearFilters} />
-</div>
+</div> -->
 
 <div class="content wrapper">
     {#each candidates as candidate}
@@ -128,6 +128,7 @@
     .title h1 {
         /* color: var(--color-slate-900); */
         border-top: 1px solid var(--color-blue-flag);
+        line-height: 2rem;
         margin-top: 0.5rem;
         margin-bottom: 1rem;
         padding-top: 0.75rem;
