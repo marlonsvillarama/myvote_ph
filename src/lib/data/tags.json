@@ -1,0 +1,94 @@
+[
+    {
+        "id": "PF",
+        "text": "Political family",
+        "alert": true
+    },
+    {
+        "id": "AC",
+        "text": "Activist"
+    },
+    {
+        "id": "CR",
+        "text": "Criminal record",
+        "alert": true
+    },
+    {
+        "id": "MLT",
+        "text": "Military"
+    },
+    {
+        "id": "T1",
+        "text": "For first term"
+    },
+    {
+        "id": "T2",
+        "text": "For second term"
+    },
+    {
+        "id": "T3",
+        "text": "For third term"
+    },
+    {
+        "id": "T4",
+        "text": "For fourth term"
+    },
+    {
+        "id": "T5",
+        "text": "For fifth term"
+    },
+    {
+        "id": "T6",
+        "text": "For sixth term"
+    },
+    {
+        "id": "IN",
+        "text": "Independent"
+    },
+    {
+        "id": "BIL",
+        "text": "Billionaire",
+        "alert": true
+    },
+    {
+        "id": "MIL",
+        "text": "Millionaire",
+        "alert": true
+    },
+    {
+        "id": "O60",
+        "text": "Over 60 years old",
+        "alert": true
+    },
+    {
+        "id": "O70",
+        "text": "Over 70 years old",
+        "alert": true
+    },
+    {
+        "id": "FP",
+        "text": "Former president",
+        "alert": true
+    },
+    {
+        "id": "FVP",
+        "text": "Former vice president",
+        "alert": true
+    },
+    {
+        "id": "FCM",
+        "text": "Former cabinet member"
+    },
+    {
+        "id": "FS",
+        "text": "Former senator"
+    },
+    {
+        "id": "FR",
+        "text": "Former representative"
+    },
+    {
+        "id": "FM",
+        "text": "Former mayor"
+    }
+]
