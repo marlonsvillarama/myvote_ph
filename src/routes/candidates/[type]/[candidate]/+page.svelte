@@ -2,7 +2,10 @@
     import { page } from '$app/stores';
     // import Tag from '../../../../components/tag.svelte';
     // import ProfileSection from '../../../../components/profileSection.svelte';
+    import Crumbs from "../../../../components/crumbs.svelte";
+    import JumpTo from '../../../../components/jumpTo.svelte';
     import ProfileHeader from '../../../../components/candidate/profileHeader.svelte';
+    import ProfileSummary from '../../../../components/candidate/profileSummary.svelte';
     import WorkExperience from '../../../../components/candidate/workExperience.svelte';
     import Legislations from '../../../../components/candidate/legislations.svelte';
     import Advocacies from '../../../../components/candidate/advocacies.svelte';
@@ -15,7 +18,11 @@
     // console.log('[candidate] data', data);
     let type = $page.params.type;
     let slug = $page.params.candidate;
+    let crumbs = [ 'candidates', type, slug ];
+    let jumps = Object.keys(data.candidates);
     let candidate = data.candidates[type]?.find(d => d.slug === slug);
+    let lastName = candidate ? candidate.ln : 'Not Found';
+    let firstName = candidate ? candidate.fn : 'Not Found';
     let candidateName = candidate ? `${candidate.ln}, ${candidate.fn}` : 'Not Found';
     // let imgUrl = `/images/profiles/${slug}.jpg`;
     // let age = 0;
@@ -24,6 +31,12 @@
         let tag = data.tags.find(t => t.id === id);
         return tag;
     }; */
+
+    const jump = (e) => {
+        console.log('jump', e);
+        if (!e.detail.link) { return; }
+        window.location = `${e.detail.link}`;
+    };
 
     const addInfo = () => {
         console.log(`addInfo ${slug}`);
@@ -48,8 +61,16 @@
 </svelte:head>
 
 <a id="top"></a>
-<div class="banner">
-    <h1 class="wrapper">{candidateName}</h1>
+<!-- <div class="banner">
+    <h1 class="wrapper">{lastName.toUpperCase()}</h1>
+</div> -->
+
+<div class="header wrapper">
+    <Crumbs data={crumbs} />
+    <JumpTo data={jumps} base="candidates" on:click={jump} />
+    <div class="title">
+        <h1>{lastName.toUpperCase()}, {firstName}</h1>
+    </div>
 </div>
 
 <section class="candidate wrapper">
@@ -57,6 +78,8 @@
     <ProfileHeader data={candidate} tags={data.tags} />
 
     <div class="details">
+
+        <ProfileSummary data={candidate} />
 
         <WorkExperience data={candidate.exp} />
 
@@ -81,12 +104,28 @@
         opacity: 0.7;
         color: white;
         font-weight: 700;
+        text-align: center;
         line-height: 2.25rem;
     }
     @media (min-width: 60rem) {
         .banner {
             padding-top: 4.75rem
         }
+    }
+    .header {
+        margin: 4rem auto 0;
+        /* border-top: 1px solid red; */
+    }
+    /* .title {
+        padding: 0.5rem 0;
+    } */
+    .title h1 {
+        /* color: var(--color-slate-900); */
+        border-top: 1px solid var(--color-blue-flag);
+        line-height: 2rem;
+        margin-top: 0.5rem;
+        /* margin-bottom: 1rem; */
+        padding-top: 0.75rem;
     }
     .candidate {
         display: flex;

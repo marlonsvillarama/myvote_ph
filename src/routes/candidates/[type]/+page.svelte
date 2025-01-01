@@ -78,8 +78,8 @@
 </section> -->
 
 <div class="header wrapper">
-    <!-- <Crumbs data={crumbs} /> -->
-    <!-- <JumpTo data={jumps} base="candidates" on:click={jump} /> -->
+    <Crumbs data={crumbs} />
+    <JumpTo data={jumps} base="candidates" on:click={jump} />
     <div class="title">
         <h1>2025 {slugTitle}</h1>
     </div>
@@ -137,7 +137,7 @@
         margin-bottom: 1.5rem;
     }
 	.content {
-        margin-top: 2rem;
+        /* margin-top: 2rem; */
 		display: flex;
         /* flex: 2 1 auto; */
 		/* flex-direction: column; */

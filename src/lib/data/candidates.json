@@ -20,6 +20,10 @@
             "web": "https://benjaminabalosjr.com/",
             "email": "",
             "party": "Partido Federal ng Pilipinas",
+            "profile": [
+                "paragraph 1",
+                "paragraph 2"
+            ],
             "exp": [{
                 "value": "Secretary - Department of Interior and Local Government (2022-2024)",
                 "sub": [
@@ -127,12 +131,14 @@
             "job": "Consultant for the poor",
             "term": 1,
             "tags": [
-                "T1",
-                "IN"
+                "T1"
             ],
             "web": "https://www.facebook.com/wilson.caritero.amad",
             "email": "",
             "party": "Independent",
+            "profile": [
+                "In 2022, Amad filed his candidacy for Vice President but was dismissed by Comelec as a nuisance candidate. The Supreme Court later reversed this decision."
+            ],
             "exp": [{
                 "value": "Spokesman - Plaridel Higaonon Tribal Council"
             }, {
@@ -145,10 +151,18 @@
                 "value": "Board of Directors - Phividec Industrial Authority Misamis Oriental Enterprises"
             }],
             "adv": [
-                "Indigenous people of Mindanao and people living in forest lands",
-                "Against excessive government bureaucracy",
-                "Environment activism",
-                "Improvement of animal rights"
+                {
+                    "title": "Mindanao indigenous rights",
+                    "desc": "Amad has been representing and fighting for the rights of the indigenous people of Mindanao, and of those living in forest lands."
+                },
+                {
+                    "title": "Anti-government bureaucracy",
+                    "desc": "Amad has campaigned strongly against excessive bureaucracy in government offices."
+                },
+                {
+                    "title": "Environmentalism",
+                    "desc": "Amad has also spoken about environmental issues and the need to preserve the country's forest areas."
+                }
             ],
             "pf": [],
             "nw": 0,
