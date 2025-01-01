@@ -181,6 +181,8 @@
             "tags": [
                 "T1"
             ],
+            "web": "https://www.facebook.com/jocelyn.andamo",
+            "email": "",
             "party": "Makabayan",
             "exp": [],
             "adv": [],
@@ -519,11 +521,43 @@
                 "T1"
             ],
             "party": "Makabayan",
-            "exp": [],
+            "exp": [
+                {
+                    "value": "Congressman - Bayan-Muna party-list (2004-2013)",
+                    "sub": [
+                        "Deputy Senate Minority Leader (2017-2019)"
+                    ]
+                }
+            ],
             "adv": [],
+            "leg": {
+                "pr": {
+                    "total": 22,
+                    "list": [
+                        {
+                            "link": "https://lawphil.net/statutes/repacts/ra2007/ra_9406_2007.html",
+                            "text": "Republic Act 9406 - Strengthened the Public Attorney's Office"
+                        },
+                        {
+                            "link": "https://lawphil.net/statutes/repacts/ra2008/ra_9504_2008.html",
+                            "text": "Republic Act 9504 - Withholding tax exemption for minimum wage earners"
+                        },
+                        {
+                            "link": "https://lawphil.net/statutes/repacts/ra2009/ra_9653_2009.html",
+                            "text": "Republic Act 9563 - Cap on house rent for low-income earners"
+                        }
+                    ]
+                },
+                "co": {
+                    "total": 0,
+                    "list": []
+                }
+            },
             "pf": [],
             "nw": 0,
-            "ed": [],
+            "ed": [
+                "University of the Philippines Los Baños - BA Sociology"
+            ],
             "news": []
         },
         {
