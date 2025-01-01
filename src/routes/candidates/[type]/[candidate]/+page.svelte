@@ -19,7 +19,7 @@
     let type = $page.params.type;
     let slug = $page.params.candidate;
     let crumbs = [ 'candidates', type, slug ];
-    let jumps = Object.keys(data.candidates);
+    let jumps = Object.keys(data.candidates).filter(c => c.toLowerCase() !== slug.toLowerCase());
     let candidate = data.candidates[type]?.find(d => d.slug === slug);
     let lastName = candidate ? candidate.ln : 'Not Found';
     let firstName = candidate ? candidate.fn : 'Not Found';

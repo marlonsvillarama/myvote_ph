@@ -12,7 +12,7 @@
     let slugProper = slug.charAt(0).toUpperCase() + slug.slice(1);
     let slugTitle = `Candidates for ${slugProper}`;
     let crumbs = [ 'candidates', slug ];
-    let jumps = Object.keys(data.candidates);
+    let jumps = Object.keys(data.candidates).filter(c => c.toLowerCase() !== slug.toLowerCase());
 
     let candidates = data.candidates[slug];
     let types = data.types[slug];
